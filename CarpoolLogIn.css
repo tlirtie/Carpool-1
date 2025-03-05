@@ -1,0 +1,51 @@
+/* Ensures all <p> elements are displayed block and stack vertically */
+p {
+    display: block; /* Makes <p> act as a block element */
+    margin-bottom: 10px; /* Adds space between label and input field */
+    font-size: 18px; /* Adjusts font size for the labels */
+    color: black; /* You can adjust the color if necessary */
+}
+
+
+
+/* Style for the input fields */
+input[type="text"], input[type="password"] {
+    background-color: grey;
+    color: white;
+    outline-color: white;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 20px;
+    margin-bottom: 20px; /* Adds space below input fields */
+    width: 100%; /* Makes the input fields stretch across the container */
+}
+
+/* Styling for the submit button */
+input[type="submit"] {
+    padding: 10px 20px;
+    background-color: darkgrey;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Optional: Style for form container and centering */
+form {
+    display: flex;
+    flex-direction: column; /* Makes form elements stack vertically */
+    justify-content: center;
+    align-items: center;
+    width: 300px; /* Set a fixed width for the form */
+    margin: 0 auto;
+}
+
+/* Optional: Center the body content */
+body {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
